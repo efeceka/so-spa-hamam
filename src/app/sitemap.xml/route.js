@@ -1,7 +1,7 @@
 // src/app/sitemap.xml/route.js
 export async function GET() {
-  // DÜZELT: www ile kullanın
-  const base = 'https://www.sospakusadasi.com';
+  // Artık apex domain kanonik: www YOK
+  const base = 'https://sospakusadasi.com';
 
   const urls = [
     { loc: `${base}/`,           changefreq: 'weekly', priority: '1.0' },

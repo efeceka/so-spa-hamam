@@ -1,6 +1,8 @@
+// app/robots.js
 export default function robots() {
   return {
     rules: [{ userAgent: '*', allow: '/' }],
-    sitemap: 'https://www.sospakusadasi.com/sitemap.xml',
+    sitemap: 'https://sospakusadasi.com/sitemap.xml',
+    host: 'sospakusadasi.com' // opsiyonel ama eklemek iyi olur
   };
 }
