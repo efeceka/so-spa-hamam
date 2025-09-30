@@ -60,7 +60,7 @@ export default function Hero({
 
         {/* CTA */}
         <Link
-          href="/booking"
+          href="/contact"
           locale={locale}
           className="inline-flex items-center gap-3 rounded-full px-6 py-3 text-base sm:text-lg font-semibold text-white shadow-lg"
           style={{ backgroundColor: GOLD }}

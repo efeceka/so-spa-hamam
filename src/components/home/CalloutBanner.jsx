@@ -47,7 +47,7 @@ export default function CalloutBanner() {
                 {/* Mobile CTA → yazının altında */}
                 <div className="mt-4 sm:hidden">
                   <Link
-                    href="/booking"
+                    href="/contact"
                     locale={locale}
                     className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white shadow-lg"
                     style={{backgroundColor: GOLD}}
@@ -75,7 +75,7 @@ export default function CalloutBanner() {
               {/* Right CTA (desktop, ortalanmış) */}
               <div className="hidden sm:flex shrink-0 self-center">
                 <Link
-                  href="/booking"
+                  href="/contact"
                   locale={locale}
                   className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-base font-semibold text-white shadow-lg"
                   style={{backgroundColor: GOLD}}

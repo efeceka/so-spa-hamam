@@ -1,6 +1,6 @@
 {
    "top_phone": "+905306893420",
-  "top_hours": "Her Gün : 11:30 - 23:00",
+  "top_hours": "Salı Hariç Her Gün : 11:30 - 23:00",
   "nav_home": "Anasayfa",
   "nav_service": "Hizmetler",
   "nav_about": "Hakkımızda",
@@ -76,6 +76,128 @@
     "title": "Farkı hissetmeye hazır mısınız?",
     "subtitle": "Sizin huzurunuz, sizin yenilenmeniz, sizin zamanınız… Kuşadası’ndaki spa deneyiminizde sizi bekliyor. Konfor, özen ve dengeyi bulacağınız, size özel bir deneyim tasarlayalım.",
     "cta": "Hemen Rezervasyon"
+  },
+  "servicesHero": {
+    "title1": "Bedeniniz, Zihniniz ve Ruhunuz İçin",
+    "title2": "Özel Tasarlanmış Bakımlar",
+    "subtitle": "SO Spa & Hamam’da her hizmet; rahatlatmak, yenilemek ve şımartmak için titizlikle tasarlanır.",
+    "cta": "Rezervasyon Yap"
+  },
+   "servicesPage": {
+    "heading": "Mükemmel kaçamağınızı bulun",
+    "labels": {
+      "benefits": "Faydaları",
+      "perfectFor": "Kimler için"
+    },
+    "book": "Rezervasyon",
+    "items": {
+      "hamam": {
+        "title": "Türk Hamamı",
+        "desc": "Geleneksel sıcak mermer üzerinde bedeninizi arındırın, zihninizi rahatlatın.",
+        "benefits": "Derin temizlik, kan dolaşımını artırma, gevşeme.",
+        "perfectFor": "Detoks ve ipeksi bir cilt isteyenler.",
+        "btnShort": "Hamam",
+        "imgAlt": "Türk hamamı odası"
+      },
+      "kese": {
+        "title": "Kese & Köpük",
+        "desc": "Profesyonel kese ile ölü deriden arınma, zengin köpükle yenileyici bakım.",
+        "benefits": "Cildi pürüzsüzleştirir, tazelenmiş ve parlak görünüm sağlar.",
+        "perfectFor": "Yenilenmiş cilt hissi arayanlar.",
+        "btnShort": "Kese & Köpük",
+        "imgAlt": "Kese ve köpük masajı"
+      },
+      "massage": {
+        "title": "Masaj Çeşitleri",
+        "desc": "Uzman terapistlerimizle gevşeyin; İsveç, derin doku ve aromaterapi seçenekleri.",
+        "benefits": "Kas gerginliğini azaltır, rahatlama ve zindelik sağlar.",
+        "perfectFor": "Stres atan, esnekliği artırmak isteyen herkes.",
+        "btnShort": "Masaj",
+        "imgAlt": "Masaj hizmeti"
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Gelenekten İlham, Sizin İçin Tasarlandı",
+      "subtitle": "SO Spa & Hamam’da amacımız; Kuşadası’nda misafirlerimize özenle hazırlanmış hamam ve spa ritüelleriyle huzurlu bir kaçamak sunmak.",
+      "cta": "Rezervasyon Yap"
+    },
+    "intro": {
+      "heading": "Biz kimiz?",
+      "p1": "Deneyimli ekibimizle geleneksel Türk hamam kültürünü modern spa dokunuşlarıyla buluşturuyoruz.",
+      "p2": "Hijyen, konfor ve samimiyet; tüm hizmet anlayışımızın merkezinde.",
+      "bullets": [
+        "Uzman terapistler ve özenle seçilmiş ürünler",
+        "Yerel ve turist misafire uygun çok dilli hizmet",
+        "Merkezî konum, kolay ulaşım"
+      ],
+      "imgAlt": "Hamam ve spa alanımızdan bir görünüm"
+    },
+    "values": {
+      "heading": "Değerlerimiz",
+      "care":   { "title": "Özenli Bakım", "desc": "Her adımda kişisel ihtiyaçlarınıza göre şekillenen hizmet." },
+      "quality":{ "title": "Kalite & Hijyen", "desc": "Tertemiz alanlar, güvenilir ürünler, tutarlı standart." },
+      "respect":{ "title": "Misafirperverlik", "desc": "Dil dostu yaklaşım, saygı ve samimiyet." }
+    },
+    "stats": {
+      "s1": { "value": "10+ yıl", "label": "Toplam Deneyim" },
+      "s2": { "value": "5/5",  "label": "Misafir Memnuniyeti" },
+      "s3": { "value": "7 gün",  "label": "Haftada Hizmet" }
+    },
+    "cta": {
+      "title": "Sizin için doğru bakım burada.",
+      "subtitle": "Hamam, kese-köpük ve masaj ritüelleri arasından seçin.",
+      "button": "Randevu Al"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Sorularınız ve randevu talepleriniz için buradayız."
+    },
+    "details": {
+      "heading": "İletişim Bilgileri",
+      "desc": "Rezervasyon ve bilgi almak için arayabilir, WhatsApp’tan yazabilir ya da formu doldurabilirsiniz.",
+      "addressLabel": "Adres",
+      "address": "Cumhuriyet, Rıfat Arın Sk. No: 10C, 09010 Kuşadası/Aydın, Türkiye",
+      "phoneLabel": "Telefon",
+      "hoursLabel": "Çalışma Saatleri",
+      "hours": "Salı Hariç Her Gün: 11:30 - 23:00"
+    },
+    "form": {
+      "heading": "Randevu Talebi",
+      "subtitle": "Formu gönderdiğinizde WhatsApp’a yönlendirilirsiniz.",
+      "fields": {
+        "name": "Ad Soyad",
+        "phone": "Telefon",
+        "date": "Tarih",
+        "service": "Hizmet",
+        "message": "Notunuz"
+      },
+      "placeholders": {
+        "name": "Adınızı girin",
+        "message": "İsteklerinizi veya tercih ettiğiniz saati yazabilirsiniz"
+      },
+      "services": {
+        "hamam": "Türk Hamamı",
+        "kese": "Spa",
+        "massage": "Masaj"
+      },
+      "submit": "WhatsApp’tan Gönder",
+      "whatsappNotice": "Butona bastığınızda mesajınız WhatsApp üzerinden bize iletilir.",
+      "errors": {
+        "required": "Lütfen ad ve telefon bilgilerini giriniz."
+      },
+      "wa": {
+        "title": "Randevu Talebi",
+        "name": "Ad Soyad",
+        "phone": "Telefon",
+        "date": "Tarih",
+        "service": "Hizmet",
+        "note": "Not"
+      }
+    }
   }
   
 }

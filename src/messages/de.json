@@ -1,6 +1,6 @@
 {
     "top_phone": "+905306893420",
-  "top_hours": "Täglich : 10:00 – 21:00",
+  "top_hours": "Jeden Tag außer Dienstag: 11:30 - 23:00",
   "nav_home": "Startseite",
   "nav_service": "Leistungen",
   "nav_about": "Über uns",
@@ -79,5 +79,127 @@
     "title": "Bereit, den Unterschied zu spüren?",
     "subtitle": "Ihre Ruhe, Ihre Erneuerung, Ihre Zeit – sie wartet auf Sie. Wir gestalten ein maßgeschneidertes Spa-Erlebnis, das Komfort, Fürsorge und Balance in Ihr Leben bringt.",
     "cta": "Jetzt buchen"
+  },
+   "servicesHero": {
+    "title1": "Individuelle Behandlungen für",
+    "title2": "Körper, Geist und Seele",
+    "subtitle": "Im SO Spa & Hamam ist jede Leistung darauf ausgelegt zu entlasten, zu regenerieren und zu erneuern.",
+    "cta": "Jetzt buchen"
+  },
+  "servicesPage": {
+    "heading": "Finden Sie Ihre perfekte Auszeit",
+    "labels": {
+      "benefits": "Vorteile",
+      "perfectFor": "Ideal für"
+    },
+    "book": "Buchen",
+    "items": {
+      "hamam": {
+        "title": "Türkisches Hamam",
+        "desc": "Reinigen Sie den Körper auf warmem Marmor und entspannen Sie den Geist.",
+        "benefits": "Tiefenreinigung, fördert die Durchblutung, völlige Entspannung.",
+        "perfectFor": "Gäste, die Detox und seidig glatte Haut wünschen.",
+        "btnShort": "Hamam",
+        "imgAlt": "Traditioneller Hamam-Raum"
+      },
+      "kese": {
+        "title": "Kese & Schaum",
+        "desc": "Professionelles Peeling gefolgt von reichhaltiger Schaumpflege.",
+        "benefits": "Glättet die Haut und sorgt für ein frisches, strahlendes Gefühl.",
+        "perfectFor": "Alle, die ein erneuertes Hautgefühl möchten.",
+        "btnShort": "Kese & Schaum",
+        "imgAlt": "Peeling und Schaummassage"
+      },
+      "massage": {
+        "title": "Massage-Therapien",
+        "desc": "Entspannen Sie mit Schwedisch, Tiefengewebe oder Aromatherapie.",
+        "benefits": "Löst Verspannungen, entspannt den Körper und gibt Energie zurück.",
+        "perfectFor": "Alle, die Stress abbauen und Beweglichkeit verbessern möchten.",
+        "btnShort": "Massage",
+        "imgAlt": "Massagebehandlung"
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Von der Tradition inspiriert, für Sie gestaltet",
+      "subtitle": "Im SO Spa & Hamam ist es unser Ziel, unseren Gästen in Kuşadası mit sorgfältig vorbereiteten Hamam- und Spa-Ritualen eine friedliche Auszeit zu bieten.",
+      "cta": "Jetzt Buchen"
+    },
+    "intro": {
+      "heading": "Wer sind wir?",
+      "p1": "Mit unserem erfahrenen Team verbinden wir die traditionelle türkische Hamam-Kultur mit modernen Spa-Elementen.",
+      "p2": "Hygiene, Komfort und Herzlichkeit stehen im Mittelpunkt unseres Serviceansatzes.",
+      "bullets": [
+        "Fachkundige Therapeuten und sorgfältig ausgewählte Produkte",
+        "Mehrsprachiger Service für Einheimische und Touristen",
+        "Zentrale Lage, einfache Erreichbarkeit"
+      ],
+      "imgAlt": "Ein Blick auf unseren Hamam- und Spa-Bereich"
+    },
+    "values": {
+      "heading": "Unsere Werte",
+      "care":   { "title": "Fürsorgliche Pflege", "desc": "Service, der bei jedem Schritt auf Ihre persönlichen Bedürfnisse abgestimmt ist." },
+      "quality":{ "title": "Qualität & Hygiene", "desc": "Saubere Räume, zuverlässige Produkte, einheitliche Standards." },
+      "respect":{ "title": "Gastfreundschaft", "desc": "Sprachfreundlicher Ansatz, Respekt und Herzlichkeit." }
+    },
+    "stats": {
+      "s1": { "value": "10+ Jahre", "label": "Gesamterfahrung" },
+      "s2": { "value": "5/5",  "label": "Gästebewertung" },
+      "s3": { "value": "7 Tage", "label": "Wöchentlich geöffnet" }
+    },
+    "cta": {
+      "title": "Die richtige Pflege für Sie ist hier.",
+      "subtitle": "Wählen Sie zwischen Hamam-, Kese-Schaum- und Massageritualen.",
+      "button": "Termin Vereinbaren"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Wir sind für Ihre Fragen und Terminwünsche da."
+    },
+    "details": {
+      "heading": "Kontaktinformationen",
+      "desc": "Für Reservierungen und Informationen können Sie uns anrufen, eine WhatsApp-Nachricht senden oder das Formular ausfüllen.",
+      "addressLabel": "Adresse",
+      "address": "Cumhuriyet, Rıfat Arın Sk. No: 10C, 09010 Kuşadası/Aydın, Türkei",
+      "phoneLabel": "Telefon",
+      "hoursLabel": "Öffnungszeiten",
+      "hours": "Jeden Tag außer Dienstag: 11:30 - 23:00"
+    },
+    "form": {
+      "heading": "Termin Anfrage",
+      "subtitle": "Wenn Sie das Formular absenden, werden Sie zu WhatsApp weitergeleitet.",
+      "fields": {
+        "name": "Vollständiger Name",
+        "phone": "Telefon",
+        "date": "Datum",
+        "service": "Leistung",
+        "message": "Ihre Notiz"
+      },
+      "placeholders": {
+        "name": "Geben Sie Ihren vollständigen Namen ein",
+        "message": "Sie können Ihre Wünsche oder eine bevorzugte Zeit angeben"
+      },
+      "services": {
+        "hamam": "Türkisches Hamam",
+        "kese": "Spa",
+        "massage": "Massage"
+      },
+      "submit": "Über WhatsApp senden",
+      "whatsappNotice": "Mit einem Klick auf den Button wird Ihre Nachricht über WhatsApp an uns gesendet.",
+      "errors": {
+        "required": "Bitte geben Sie Ihren Namen und Ihre Telefonnummer ein."
+      },
+      "wa": {
+        "title": "Buchungsanfrage",
+        "name": "Name",
+        "phone": "Telefon",
+        "date": "Datum",
+        "service": "Leistung",
+        "note": "Notiz"
+      }
+    }
   }
 }

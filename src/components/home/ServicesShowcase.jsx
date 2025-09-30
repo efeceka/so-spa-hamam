@@ -89,7 +89,7 @@ export default function ServicesShowcase() {
 
                   {/* CTA */}
                   <Link
-                    href="/booking"
+                    href="/contact"
                     locale={locale}
                     className="mt-6 inline-flex items-center gap-2 rounded-full px-5 py-3 font-semibold text-white shadow-lg"
                     style={{backgroundColor:GOLD}}

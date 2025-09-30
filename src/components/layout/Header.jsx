@@ -118,7 +118,7 @@ export default function Header() {
 
             {/* CTA (desktop) */}
             <div className="hidden md:block">
-              <Link href="/booking" locale={locale} className="group inline-flex items-center gap-3 rounded-full px-6 py-3 text-base font-semibold text-white" style={{ backgroundColor: GOLD }}>
+              <Link href="/contact" locale={locale} className="group inline-flex items-center gap-3 rounded-full px-6 py-3 text-base font-semibold text-white" style={{ backgroundColor: GOLD }}>
                 {t("cta_book")}
                 <ArrowRight className="h-4 w-4" />
               </Link>
@@ -157,7 +157,7 @@ export default function Header() {
       );
     })}
     <Link
-      href="/booking"
+      href="/contact"
       locale={locale}
       onClick={() => setOpen(false)}
       className="mt-3 inline-flex items-center justify-center gap-3 rounded-full px-6 py-3 text-base font-semibold text-white"

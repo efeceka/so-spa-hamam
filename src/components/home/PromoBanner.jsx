@@ -51,7 +51,7 @@ export default function PromoBanner({
               {/* CTA (right) */}
               <div className="hidden sm:block shrink-0">
                 <Link
-                  href="/booking"
+                  href="/contact"
                   locale={locale}
                   className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-base font-semibold text-white shadow-lg"
                   style={{backgroundColor: GOLD}}
@@ -67,7 +67,7 @@ export default function PromoBanner({
             {/* CTA (mobile) */}
             <div className="sm:hidden absolute bottom-5 left-0 right-0 flex justify-center">
               <Link
-                href="/booking"
+                href="/contact"
                 locale={locale}
                 className="inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-white shadow-lg"
                 style={{backgroundColor: GOLD}}

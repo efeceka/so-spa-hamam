@@ -1,6 +1,6 @@
 {
    "top_phone": "+905306893420",
-  "top_hours": "Everyday : 11.30 - 23.00",
+  "top_hours": "Every day except Tuesday: 11:30 - 23:00",
   "nav_home": "Home",
   "nav_service": "Service",
   "nav_about": "About us",
@@ -76,5 +76,127 @@
     "title": "Ready to Feel the Difference?",
     "subtitle": "Your peace, your renewal, your time — it’s waiting for you. Let us craft a tailored spa experience that brings comfort, care and balance to your life.",
     "cta": "Book Now and Let Go"
+  },
+  "servicesHero": {
+    "title1": "Tailored Treatments for",
+    "title2": "Your Body, Mind, and Spirit",
+    "subtitle": "At SO Spa & Hammam, every service is designed to relieve, restore and rejuvenate—because you deserve care that heals.",
+    "cta": "Book Your Experience"
+  },
+  "servicesPage": {
+    "heading": "Find your perfect escape",
+    "labels": {
+      "benefits": "Benefits",
+      "perfectFor": "Perfect for"
+    },
+    "book": "Book",
+    "items": {
+      "hamam": {
+        "title": "Turkish Hammam",
+        "desc": "Purify your body on warm marble and unwind your mind with tradition.",
+        "benefits": "Deep cleanse, boosts circulation, full-body relaxation.",
+        "perfectFor": "Guests seeking detox and silky-smooth skin.",
+        "btnShort": "Hammam",
+        "imgAlt": "Traditional hammam room"
+      },
+      "kese": {
+        "title": "Kese & Foam",
+        "desc": "Professional exfoliation followed by a rich foam cleanse for renewal.",
+        "benefits": "Smooths the skin and brings a fresh, radiant feel.",
+        "perfectFor": "Anyone wanting a refreshed skin sensation.",
+        "btnShort": "Kese & Foam",
+        "imgAlt": "Exfoliation and foam massage"
+      },
+      "massage": {
+        "title": "Massage Therapies",
+        "desc": "Unwind with Swedish, Deep Tissue or Aromatherapy options.",
+        "benefits": "Eases tension, relaxes the body and restores vitality.",
+        "perfectFor": "Those reducing stress and improving flexibility.",
+        "btnShort": "Massage",
+        "imgAlt": "Massage therapy"
+      }
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Inspired by Tradition, Designed for You",
+      "subtitle": "At SO Spa & Hamam, our goal is to offer our guests in Kuşadası a peaceful escape with carefully prepared hammam and spa rituals.",
+      "cta": "Book Now"
+    },
+    "intro": {
+      "heading": "Who are we?",
+      "p1": "With our experienced team, we combine the traditional Turkish hammam culture with modern spa touches.",
+      "p2": "Hygiene, comfort and sincerity are at the center of our service approach.",
+      "bullets": [
+        "Expert therapists and carefully selected products",
+        "Multilingual service for both locals and tourists",
+        "Central location, easy access"
+      ],
+      "imgAlt": "A view from our hammam and spa area"
+    },
+    "values": {
+      "heading": "Our Values",
+      "care":   { "title": "Attentive Care", "desc": "Service tailored to your personal needs at every step." },
+      "quality":{ "title": "Quality & Hygiene", "desc": "Clean spaces, reliable products, consistent standards." },
+      "respect":{ "title": "Hospitality", "desc": "Language-friendly approach, respect and sincerity." }
+    },
+    "stats": {
+      "s1": { "value": "10+ years", "label": "Total Experience" },
+      "s2": { "value": "5/5",  "label": "Guest Satisfaction" },
+      "s3": { "value": "7 days",  "label": "Open Weekly" }
+    },
+    "cta": {
+      "title": "The right care for you is here.",
+      "subtitle": "Choose among hammam, kese-foam and massage rituals.",
+      "button": "Make a Reservation"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We’re here for your questions and booking requests."
+    },
+    "details": {
+      "heading": "Contact Information",
+      "desc": "You can call us, send a WhatsApp message, or fill out the form for reservations and inquiries.",
+      "addressLabel": "Address",
+      "address": "Cumhuriyet, Rıfat Arın Sk. No: 10C, 09010 Kuşadası/Aydın, Türkiye",
+      "phoneLabel": "Phone",
+      "hoursLabel": "Opening Hours",
+      "hours": "Every day except Tuesday: 11:30 - 23:00"
+    },
+    "form": {
+      "heading": "Appointment Request",
+      "subtitle": "When you submit the form, you will be redirected to WhatsApp.",
+      "fields": {
+        "name": "Full Name",
+        "phone": "Phone",
+        "date": "Date",
+        "service": "Service",
+        "message": "Your Note"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "message": "You can write your preferences or a preferred time"
+      },
+      "services": {
+        "hamam": "Turkish Hammam",
+        "kese": "Spa",
+        "massage": "Massage"
+      },
+      "submit": "Send via WhatsApp",
+      "whatsappNotice": "By clicking the button, your message will be sent to us on WhatsApp.",
+      "errors": {
+        "required": "Please enter your name and phone number."
+      },
+      "wa": {
+        "title": "Booking Request",
+        "name": "Full Name",
+        "phone": "Phone",
+        "date": "Date",
+        "service": "Service",
+        "note": "Note"
+      }
+    }
   }
 }
