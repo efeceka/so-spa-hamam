@@ -17,7 +17,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({params}) {
-  const {locale} = await params;
+  const {locale} = params; // await kaldırıldı
   const msgs = (await import(`../../messages/${locale}.json`)).default;
 
   const base = 'https://sospakusadasi.com';
@@ -28,7 +28,7 @@ export async function generateMetadata({params}) {
   const title    = msgs?.seo?.title ?? 'SO Spa & Hamam | Kuşadası Hamam & Spa';
   const desc     = msgs?.seo?.description ?? 'Kuşadası’nda geleneksel hamam ve spa.';
   const ogAlt    = msgs?.seo?.ogAlt ?? title;
-  const ogImage  = msgs?.seo?.ogImage ?? '/og.png';
+  const ogImage  = msgs?.seo?.ogImage ?? '/og.png'; // ← seçimin buysa public/og.png olmalı
   const keywords = msgs?.seo?.keywords;
 
   return {
@@ -56,17 +56,13 @@ export async function generateMetadata({params}) {
       images: [ogImage]
     },
     robots: { index: true, follow: true },
-    themeColor: '#000000',
-    viewport: { width: 'device-width', initialScale: 1 },
     icons: {
       icon: [
         { url: '/favicon.ico' },
         { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
         { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
       ],
-      apple: [
-        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
-      ],
+      apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
       other: [
         { rel: 'android-chrome', url: '/android-chrome-192x192.png' },
         { rel: 'android-chrome', url: '/android-chrome-512x512.png' }
@@ -75,6 +71,12 @@ export async function generateMetadata({params}) {
     manifest: '/site.webmanifest'
   };
 }
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#000000'
+};
 
 export default async function LocaleLayout({children, params}) {
   const {locale} = await params;
