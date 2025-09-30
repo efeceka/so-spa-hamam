@@ -3,13 +3,8 @@ export default function robots() {
   const base = 'https://sospakusadasi.com';
 
   return {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/'
-      }
-    ],
+    rules: [{ userAgent: '*', allow: '/' }],
     sitemap: `${base}/sitemap.xml`,
-    host: base
+    host: 'sospakusadasi.com' // protokolsüz (opsiyonel tercih)
   };
 }

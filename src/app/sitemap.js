@@ -1,66 +1,42 @@
 // app/sitemap.js
+export const revalidate = 3600; // 1 saat (opsiyonel)
+
 export default function sitemap() {
   const base = 'https://sospakusadasi.com';
-
-  // rotalar ve diller
   const pages = ['', 'about', 'service', 'contact']; // '' = anasayfa
-  const locales = ['tr', 'en', 'de'];
-
+  const locales = ['tr', 'en', 'de']; // (şimdilik kullanılmıyor)
   const lastModified = new Date();
 
-  // yardımcı: belirtilen sayfa için her dilin URL'i
   const urlsForPage = (slug) => {
-    const trUrl = slug ? `${base}/${slug}` : `${base}/`;
-    const enUrl = slug ? `${base}/en/${slug}` : `${base}/en`;
-    const deUrl = slug ? `${base}/de/${slug}` : `${base}/de`;
-
-    return {
-      tr: trUrl,
-      en: enUrl,
-      de: deUrl
-    };
+    const tr = slug ? `${base}/${slug}` : `${base}/`;
+    const en = slug ? `${base}/en/${slug}` : `${base}/en`;
+    const de = slug ? `${base}/de/${slug}` : `${base}/de`;
+    return { tr, en, de };
   };
 
-  // Next.js sitemap API'si alternates destekliyor
   const entries = pages.flatMap((slug) => {
     const u = urlsForPage(slug);
-    return [
-      {
-        url: u.tr,
-        lastModified,
-        alternates: {
-          languages: {
-            'tr-TR': u.tr,
-            en: u.en,
-            de: u.de,
-            'x-default': u.tr
-          }
-        }
-      },
-      {
-        url: u.en,
-        lastModified,
-        alternates: {
-          languages: {
-            'tr-TR': u.tr,
-            en: u.en,
-            de: u.de,
-            'x-default': u.tr
-          }
-        }
-      },
-      {
-        url: u.de,
-        lastModified,
-        alternates: {
-          languages: {
-            'tr-TR': u.tr,
-            en: u.en,
-            de: u.de,
-            'x-default': u.tr
-          }
-        }
+    const alternates = {
+      languages: {
+        'tr-TR': u.tr,
+        en: u.en,
+        de: u.de,
+        'x-default': u.tr // TR kök alan, doğru
       }
+    };
+
+    // changeFrequency & priority opsiyoneldir
+    const common = {
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: slug === '' ? 1.0 : 0.8,
+      alternates
+    };
+
+    return [
+      { url: u.tr, ...common },
+      { url: u.en, ...common },
+      { url: u.de, ...common }
     ];
   });
 
