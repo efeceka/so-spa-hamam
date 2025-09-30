@@ -4,6 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import '../globals.css';
 import {Suspense} from 'react';               // ⬅️ eklendi
+import FloatingButtons from '@/components/common/FloatingButtons';
 
 export function generateStaticParams() {
   return [{locale:'tr'},{locale:'en'},{locale:'de'}];
@@ -22,6 +23,7 @@ export default async function LocaleLayout({children, params}) {
             {children}
           </Suspense>
           <Footer/>
+          <FloatingButtons/>
         </NextIntlClientProvider>
       </body>
     </html>

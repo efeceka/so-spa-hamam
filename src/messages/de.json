@@ -146,7 +146,7 @@
     "stats": {
       "s1": { "value": "10+ Jahre", "label": "Gesamterfahrung" },
       "s2": { "value": "5/5",  "label": "Gästebewertung" },
-      "s3": { "value": "7 Tage", "label": "Wöchentlich geöffnet" }
+      "s3": { "value": "6 Tage", "label": "Wöchentlich geöffnet" }
     },
     "cta": {
       "title": "Die richtige Pflege für Sie ist hier.",

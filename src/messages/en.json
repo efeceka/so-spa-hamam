@@ -143,7 +143,7 @@
     "stats": {
       "s1": { "value": "10+ years", "label": "Total Experience" },
       "s2": { "value": "5/5",  "label": "Guest Satisfaction" },
-      "s3": { "value": "7 days",  "label": "Open Weekly" }
+      "s3": { "value": "6 days",  "label": "Open Weekly" }
     },
     "cta": {
       "title": "The right care for you is here.",

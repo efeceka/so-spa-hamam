@@ -143,7 +143,7 @@
     "stats": {
       "s1": { "value": "10+ yıl", "label": "Toplam Deneyim" },
       "s2": { "value": "5/5",  "label": "Misafir Memnuniyeti" },
-      "s3": { "value": "7 gün",  "label": "Haftada Hizmet" }
+      "s3": { "value": "6 gün",  "label": "Haftada Hizmet" }
     },
     "cta": {
       "title": "Sizin için doğru bakım burada.",
