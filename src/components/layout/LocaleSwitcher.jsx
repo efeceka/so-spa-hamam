@@ -1,5 +1,6 @@
 "use client";
 
+import {Suspense} from "react";
 import {usePathname, useSearchParams} from "next/navigation";
 
 const langs = [
@@ -26,12 +27,13 @@ function makeHref(locale, basePath, qs) {
   return qs ? `${path}?${qs}` : path;
 }
 
-export default function LocaleSwitcher() {
+/* -------- Inner: hooks burada -------- */
+function LocaleSwitcherInner() {
   const pathname = usePathname();
   const params = useSearchParams();
 
-  const basePath = basePathFrom(pathname);
-  const qs = params.toString();
+  const basePath = basePathFrom(pathname || "/");
+  const qs = params?.toString() || "";
 
   return (
     <div className="inline-flex items-center gap-1 rounded-lg bg-white/5 px-1 py-1">
@@ -40,13 +42,28 @@ export default function LocaleSwitcher() {
         return (
           <a
             key={l.code}
-            href={href}        // düz anchor = tam istek = middleware kesin çalışır
-            className="px-2 py-1 rounded-md text-sm hover:bg-white/5"
+            href={href} // düz anchor = tam istek = middleware kesin çalışır
+            className="px-2 py-1 rounded-md text-sm hover:bg-white/10"
           >
             {l.label}
           </a>
         );
       })}
     </div>
+  );
+}
+
+/* -------- Outer: Suspense boundary -------- */
+export default function LocaleSwitcher() {
+  return (
+    <Suspense fallback={
+      <div className="inline-flex items-center gap-1 rounded-lg bg-white/5 px-1 py-1">
+        {langs.map(l => (
+          <span key={l.code} className="px-2 py-1 rounded-md text-sm opacity-60">{l.label}</span>
+        ))}
+      </div>
+    }>
+      <LocaleSwitcherInner />
+    </Suspense>
   );
 }
