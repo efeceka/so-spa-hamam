@@ -1,0 +1,81 @@
+{
+   "top_phone": "+905306893420",
+  "top_hours": "Her Gün : 11:30 - 23:00",
+  "nav_home": "Anasayfa",
+  "nav_service": "Hizmetler",
+  "nav_about": "Hakkımızda",
+  "nav_contact": "İletişim",
+  "cta_book": "Rezervasyon",
+  "hero": {
+    "title1": "Bedeniniz, Zihniniz ve Ruhunuz için",
+    "title2": "Özel Tedaviler.",
+    "subtitle": "SO Spa’da her hizmet; rahatlamanız, yenilenmeniz ve tazelenmeniz için tasarlandı çünkü hak ettiğiniz bakım, iyileştirici olduğu kadar iyi hissettirmelidir.",
+    "cta": "Deneyiminizi Rezerve Edin"
+  },
+  "footer": {
+    "tagline": "Kuşadası’nda huzur, hamam ve masajın en zarif hâli.",
+    "address": "Kuşadası, Aydın – Türkiye",
+    "phone": "Telefon",
+    "rights": "Tüm hakları saklıdır.",
+    "nav": {
+      "home": "Anasayfa",
+      "service": "Hizmetler",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "book": "Rezervasyon"
+    }
+  },
+  "why": {
+    "feat1": "Gerçek Türk Hamamı",
+    "feat2": "Uzman Terapistler",
+    "feat3": "Kolay Ulaşım",
+    "heading_line1": "Neden SO Spa’yı",
+    "heading_line2": "Tercih Etmelisiniz?",
+    "subheading": "Huzur, nihayet…",
+    "paragraph": "Kuşadası’nın kalbinde SO Spa; Swedish, derin doku, Thai ve aromaterapi masajlarının yanı sıra geleneksel Türk hamamı ile bedeninizi ve ruhunuzu yeniler. Nazilli, Germencik, Selçuk, Torbalı, Ödemiş, Söke ve İzmir’den kolay ulaşım, profesyonel dokunuş ve tertemiz bir atmosfer sizi bekliyor.",
+    "read_more": "Daha fazla bilgi",
+    "img_top_alt": "Hamam ve masajla rahatlama",
+    "img_bottom_alt": "Profesyonel terapist masaj uygulaması"
+  },
+  "promo": {
+    "title": "Farkı Bugün Hissedin.",
+    "subtitle": "İyileştiren, rahatlatan ve yenileyen bakımı deneyimleyin.",
+    "cta": "Rezervasyon Yap"
+  },
+  "services": {
+    "heading": "Mükemmel kaçışı bulun",
+    "benefits": "Faydaları:",
+    "perfectFor": "Kimler için ideal:",
+    "more": "Daha fazla hizmeti keşfedin",
+    "swedish": {
+      "title": "Swedish Masajı",
+      "desc": "Yumuşak, akıcı dokunuşlarla zihin ve bedeninizi rahatlatın.",
+      "benefits": "Dolaşımı artırır, gerginliği azaltır ve derin gevşeme sağlar.",
+      "perfect": "İlk kez deneyenler veya saf huzur arayanlar.",
+      "cta": "Swedish için rezervasyon",
+      "imgAlt": "Swedish masajı uygulaması"
+    },
+    "deep": {
+      "title": "Derin Doku Masajı",
+      "desc": "Kasların en derin katmanlarını hedefleyerek ağrı ve kronik gerginliği azaltır.",
+      "benefits": "Düğümleri çözer, ağrıyı hafifletir ve toparlanmayı hızlandırır.",
+      "perfect": "Sporcular, aktif bireyler veya kalıcı ağrısı olanlar.",
+      "cta": "Derin Doku için rezervasyon",
+      "imgAlt": "Derin doku masajı uygulaması"
+    },
+    "aroma": {
+      "title": "Aromaterapi Masajı",
+      "desc": "Esansiyel yağların sakinleştirici gücüyle nefes alın, tazelenin.",
+      "benefits": "Rahatlatır, zihni dengeler, duyuları yatıştırır.",
+      "perfect": "Duygusal denge ve derin sükûnet arayanlar.",
+      "cta": "Aromaterapi için rezervasyon",
+      "imgAlt": "Aromaterapi masajı uygulaması"
+    }    
+  },
+  "callout": {
+    "title": "Farkı hissetmeye hazır mısınız?",
+    "subtitle": "Sizin huzurunuz, sizin yenilenmeniz, sizin zamanınız… Kuşadası’ndaki spa deneyiminizde sizi bekliyor. Konfor, özen ve dengeyi bulacağınız, size özel bir deneyim tasarlayalım.",
+    "cta": "Hemen Rezervasyon"
+  }
+  
+}

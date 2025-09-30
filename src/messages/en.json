@@ -1,0 +1,80 @@
+{
+   "top_phone": "+905306893420",
+  "top_hours": "Everyday : 11.30 - 23.00",
+  "nav_home": "Home",
+  "nav_service": "Service",
+  "nav_about": "About us",
+  "nav_contact": "Contact us",
+  "cta_book": "Rezervation",
+  "hero": {
+    "title1": "Tailored Treatments for",
+    "title2": "Your Body, Mind, and Spirit.",
+    "subtitle": "At Massage Spa, every service is designed to relieve, restore, and rejuvenate — because you deserve care that feels as good as it heals.",
+    "cta": "Book Your Experience"
+  },
+  "footer": {
+    "tagline": "The most elegant way to relax with hammam & massage in Kuşadası.",
+    "address": "Kuşadası, Aydın – Türkiye",
+    "phone": "Phone",
+    "rights": "All rights reserved.",
+    "nav": {
+      "home": "Home",
+      "service": "Services",
+      "about": "About us",
+      "contact": "Contact",
+      "book": "Book Now"
+    }
+  },
+  "why": {
+    "feat1": "Authentic Turkish Bath",
+    "feat2": "Expert Therapists & Hygiene",
+    "feat3": "Easy Access",
+    "heading_line1": "Why Choose",
+    "heading_line2": "SO Spa?",
+    "subheading": "Peace, at last…",
+    "paragraph": "In the heart of Kuşadası, SO Spa renews your body and mind with Swedish, Deep Tissue, Thai and Aromatherapy massages—plus a traditional Turkish Hammam ritual. Guests also visit from Nazilli, Germencik, Selçuk, Torbalı, Ödemiş, Söke and İzmir thanks to convenient access, expert care and a spotless atmosphere.",
+    "read_more": "Read more",
+    "img_top_alt": "Relaxing hammam & massage",
+    "img_bottom_alt": "Professional therapist at work"
+  },
+  "promo": {
+    "title": "Feel the Difference Today.",
+    "subtitle": "Experience care that heals, relaxes and restores.",
+    "cta": "Book Your Escape"
+  },
+  "services": {
+    "heading": "Find your perfect escape",
+    "benefits": "Benefits:",
+    "perfectFor": "Perfect for:",
+    "more": "Explore more services",
+    "swedish": {
+      "title": "Swedish Massage",
+      "desc": "Let stress melt away with gentle, flowing strokes.",
+      "benefits": "Improves circulation, reduces tension and promotes deep relaxation.",
+      "perfect": "First-timers or anyone seeking pure tranquility.",
+      "cta": "Book Swedish Massage",
+       "imgAlt": "Swedish massage in progress"
+    },
+    "deep": {
+      "title": "Deep Tissue Massage",
+      "desc": "Targets deeper layers of muscle to relieve tension and chronic pain.",
+      "benefits": "Eases knots, relieves soreness and promotes recovery.",
+      "perfect": "Athletes and those with persistent pain.",
+      "cta": "Book Deep Tissue Massage",
+      "imgAlt": "Deep tissue massage in progress"
+    },
+    "aroma": {
+      "title": "Aromatherapy Massage",
+      "desc": "Breathe in the calming power of essential oils.",
+      "benefits": "Enhances relaxation and balances the senses.",
+      "perfect": "Those seeking emotional balance and deep calm.",
+      "cta": "Book Aromatherapy",
+       "imgAlt": "Aromatherapy massage in progress"
+    }
+  },
+  "callout": {
+    "title": "Ready to Feel the Difference?",
+    "subtitle": "Your peace, your renewal, your time — it’s waiting for you. Let us craft a tailored spa experience that brings comfort, care and balance to your life.",
+    "cta": "Book Now and Let Go"
+  }
+}

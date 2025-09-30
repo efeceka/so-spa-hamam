@@ -1,0 +1,83 @@
+{
+    "top_phone": "+905306893420",
+  "top_hours": "Täglich : 10:00 – 21:00",
+  "nav_home": "Startseite",
+  "nav_service": "Leistungen",
+  "nav_about": "Über uns",
+  "nav_contact": "Kontakt",
+  "cta_book": "Jetzt buchen",
+  "hero": {
+    "title1": "Individuelle Behandlungen für",
+    "title2": "Körper, Geist und Seele.",
+    "subtitle": "Im Massage Spa ist jeder Service darauf ausgelegt, zu entspannen, zu regenerieren und zu erneuern — weil Sie eine Pflege verdienen, die sich genauso gut anfühlt wie sie heilt.",
+    "cta": "Erlebnis buchen"
+  },
+  "footer": {
+    "tagline": "Entspannung mit Hamam & Massage – stilvoll in Kuşadası.",
+    "address": "Kuşadası, Aydın – Türkei",
+    "phone": "Telefon",
+    "rights": "Alle Rechte vorbehalten.",
+    "nav": {
+      "home": "Startseite",
+      "service": "Leistungen",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "book": "Jetzt buchen"
+    }
+  },
+  "why": {
+    "feat1": "Authentisches Türkisches Bad",
+    "feat2": "Fachkundige Therapeuten & Hygiene",
+    "feat3": "Gute Anreise",
+    "heading_line1": "Warum",
+    "heading_line2": "SO Spa?",
+    "subheading": "Endlich Ruhe …",
+    "paragraph": "Im Herzen von Kuşadası erneuert SO Spa Körper und Geist mit Swedish, Deep Tissue, Thai und Aromatherapie – sowie dem traditionellen Türkischen Hamam. Dank der bequemen Anreise kommen Gäste auch aus Nazilli, Germencik, Selçuk, Torbalı, Ödemiş, Söke und Izmir – für fachkundige Behandlungen in einer makellosen Umgebung.",
+    "read_more": "Mehr erfahren",
+    "img_top_alt": "Entspannendes Hamam & Massage",
+    "img_bottom_alt": "Professionelle Massage"
+  },
+  "promo": {
+    "title": "Spüren Sie den Unterschied – heute.",
+    "subtitle": "Erleben Sie Pflege, die heilt, entspannt und erneuert.",
+    "cta": "Jetzt buchen"
+  },
+  "services": {
+    "heading": "Finden Sie Ihre perfekte Auszeit",
+    "benefits": "Vorteile:",
+    "perfectFor": "Ideal für:",
+    "more": "Weitere Behandlungen entdecken",
+    "swedish": {
+      "title": "Schwedische Massage",
+      "desc": "Sanfte, fließende Griffe lassen Stress dahinschmelzen.",
+      "benefits": "Verbessert die Durchblutung, reduziert Verspannungen und fördert tiefe Entspannung.",
+      "perfect": "Einsteiger oder alle, die reine Ruhe suchen.",
+      "price": "Ab 49 €",
+      "cta": "Schwedische Massage buchen",
+      "imgAlt": "Schwedische Massage in Anwendung"
+    },
+    "deep": {
+      "title": "Tiefengewebsmassage",
+      "desc": "Zielt auf tiefe Muskelschichten zur Linderung von Verspannungen und chronischen Schmerzen.",
+      "benefits": "Löst Knoten, lindert Schmerzen und unterstützt die Regeneration.",
+      "perfect": "Sportler und Menschen mit anhaltenden Schmerzen.",
+      "price": "Ab 59 €",
+      "cta": "Tiefengewebsmassage buchen",
+        "imgAlt": "Tiefengewebsmassage in Anwendung"
+    },
+    "aroma": {
+      "title": "Aromatherapie-Massage",
+      "desc": "Atmen Sie die beruhigende Kraft ätherischer Öle.",
+      "benefits": "Fördert Entspannung und Gleichgewicht der Sinne.",
+      "perfect": "Für alle, die emotionale Balance und tiefe Ruhe suchen.",
+      "price": "Ab 45 €",
+      "cta": "Aromatherapie buchen",
+      "imgAlt": "Aromatherapie-Massage in Anwendung"
+    }
+  },
+  "callout": {
+    "title": "Bereit, den Unterschied zu spüren?",
+    "subtitle": "Ihre Ruhe, Ihre Erneuerung, Ihre Zeit – sie wartet auf Sie. Wir gestalten ein maßgeschneidertes Spa-Erlebnis, das Komfort, Fürsorge und Balance in Ihr Leben bringt.",
+    "cta": "Jetzt buchen"
+  }
+}
