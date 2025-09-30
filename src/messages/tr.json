@@ -198,6 +198,39 @@
         "note": "Not"
       }
     }
+  },
+  "seo": {
+  "siteName": "SO Spa & Hamam",
+  "title": "SO Spa & Hamam | Kuşadası Hamam, Spa ve Masaj",
+  "description": "SO Spa & Hamam’da geleneksel Türk hamamı, kese-köpük ve profesyonel masaj hizmetleriyle Kuşadası’nda huzuru keşfedin.",
+  "ogAlt": "SO Spa & Hamam - Kuşadası’nda hamam, masaj ve spa deneyimi",
+  "keywords": "kuşadası hamam, spa kuşadası, masaj kuşadası, türk hamamı, kese köpük",
+  "ogImage": "/images/seo/og-image-tr.png",
+  "home": {
+      "title": "SO Spa & Hamam | Kuşadası Hamam & Spa",
+      "description": "Kuşadası’nda geleneksel Türk hamamı, kese-köpük ve masaj ritüelleriyle bedeninizi arındırın, zihninizi dinlendirin."
+    },
+    "about": {
+  "title": "Hakkımızda | SO Spa & Hamam",
+  "description": "Deneyimli ekibimizle geleneksel Türk hamamı ve modern spa’yı Kuşadası’nda buluşturuyoruz. Hijyen, konfor ve misafirperverlik önceliğimizdir.",
+  "ogAlt": "SO Spa & Hamam Hakkımızda",
+  "ogImage": "/images/seo/og-image-tr.png",
+  "keywords": "so spa hamam hakkımızda, kuşadası spa, kuşadası hamam, masaj kuşadası"
+},
+  "contact": {
+    "title": "İletişim | SO Spa & Hamam",
+    "description": "SO Spa & Hamam’a ulaşın...",
+    "ogAlt": "SO Spa & Hamam İletişim",
+    "ogImage": "/images/seo/og.png",
+    "keywords": "so spa hamam iletişim, kuşadası spa rezervasyon, ..."
+  },
+  "services": {
+    "title": "Hizmetler | SO Spa & Hamam",
+    "description": "SO Spa & Hamam’da geleneksel hamam, kese-köpük ve masaj hizmetlerini keşfedin.",
+    "ogAlt": "SO Spa & Hamam Hizmetler",
+    "ogImage": "/images/seo/og.png",
+    "keywords": "kuşadası hamam, spa hizmetleri, masaj kuşadası, kese köpük spa"
   }
+}
   
 }

@@ -198,5 +198,38 @@
         "note": "Note"
       }
     }
+  },
+  "seo": {
+  "siteName": "SO Spa & Hamam",
+  "title": "SO Spa & Hamam | Turkish Bath, Spa & Massage in Kuşadası",
+  "description": "Discover peace in Kuşadası with traditional Turkish bath, foam scrub and professional massage services at SO Spa & Hamam.",
+  "ogAlt": "SO Spa & Hamam - Hammam, massage and spa experience in Kuşadası",
+  "keywords": "kusadasi turkish bath, spa kusadasi, massage kusadasi, hammam, foam scrub",
+  "ogImage": "/images/seo/og-image-en.png",
+  "home": {
+      "title": "SO Spa & Hamam | Kusadasi Hammam & Spa",
+      "description": "Experience traditional Turkish bath, foam scrub, and relaxing massage rituals in Kusadasi."
+    },
+    "about": {
+  "title": "About Us | SO Spa & Hamam",
+  "description": "We blend the tradition of the Turkish bath with modern spa rituals in Kusadasi. Hygiene, comfort and hospitality are at the heart of our service.",
+  "ogAlt": "About SO Spa & Hamam",
+  "ogImage": "/images/seo/og-image-en.png",
+  "keywords": "about so spa hamam, kusadasi spa, turkish bath kusadasi, massage kusadasi"
+},
+"contact": {
+      "title": "Contact | SO Spa & Hamam",
+      "description": "Get in touch with SO Spa & Hamam. Easily make a reservation via phone, WhatsApp, or our form. Enjoy a traditional hammam and spa experience in Kusadasi.",
+      "ogAlt": "SO Spa & Hamam Contact",
+      "ogImage": "/images/seo/og.png",
+      "keywords": "so spa hamam contact, kusadasi spa booking, turkish bath contact, kusadasi massage"
+    },
+    "services": {
+    "title": "Services | SO Spa & Hamam",
+    "description": "Discover traditional hammam, foam scrub, and massage services at SO Spa & Hamam in Kusadasi.",
+    "ogAlt": "SO Spa & Hamam Services",
+    "ogImage": "/images/seo/og.png",
+    "keywords": "kusadasi hammam, spa services, massage kusadasi, foam scrub spa"
   }
+}
 }

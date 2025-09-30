@@ -201,5 +201,38 @@
         "note": "Notiz"
       }
     }
+  },
+  "seo": {
+  "siteName": "SO Spa & Hamam",
+  "title": "SO Spa & Hamam | Türkisches Bad, Spa & Massage in Kuşadası",
+  "description": "Erleben Sie Ruhe in Kuşadası mit traditionellem türkischem Bad, Schaum-Peeling und professionellen Massagen im SO Spa & Hamam.",
+  "ogAlt": "SO Spa & Hamam – Hammam, Massage und Spa-Erlebnis in Kuşadası",
+  "keywords": "kusadasi türkisches bad, spa kusadasi, massage kusadasi, hammam, peeling",
+  "ogImage": "/images/seo/og-image-de.png",
+  "home": {
+      "title": "SO Spa & Hamam | Kusadasi Hammam & Spa",
+      "description": "Erleben Sie in Kusadasi das traditionelle türkische Bad, Peelingschaum und entspannende Massagerituale."
+    },
+    "about": {
+  "title": "Über uns | SO Spa & Hamam",
+  "description": "Wir vereinen die Tradition des türkischen Bades mit modernen Spa-Ritualen in Kusadasi. Hygiene, Komfort und Gastfreundschaft stehen im Mittelpunkt.",
+  "ogAlt": "Über SO Spa & Hamam",
+  "ogImage": "/images/seo/og-image-de.png",
+  "keywords": "über so spa hamam, spa kusadasi, türkisches bad kusadasi, massage kusadasi"
+},
+"contact": {
+      "title": "Kontakt | SO Spa & Hamam",
+      "description": "Kontaktieren Sie SO Spa & Hamam. Reservieren Sie einfach per Telefon, WhatsApp oder Formular. Erleben Sie das traditionelle Hammam- und Spa-Erlebnis in Kuşadası.",
+      "ogAlt": "SO Spa & Hamam Kontakt",
+      "ogImage": "/images/seo/og.png",
+      "keywords": "so spa hamam kontakt, kusadasi spa reservierung, türkisches bad kontakt, kusadasi massage"
+    },
+    "services": {
+    "title": "Leistungen | SO Spa & Hamam",
+    "description": "Entdecken Sie traditionelle Hammam-, Schaum- und Massageservices im SO Spa & Hamam in Kuşadası.",
+    "ogAlt": "SO Spa & Hamam Leistungen",
+    "ogImage": "/images/seo/og.png",
+    "keywords": "kusadasi hammam, spa leistungen, massage kusadasi, kese köpük spa"
   }
+}
 }
