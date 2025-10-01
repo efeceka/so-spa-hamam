@@ -43,7 +43,7 @@ export async function generateMetadata({params}) {
       description: desc,
       images: [
         {
-          url: '/og.jpg',
+          url: '/og.png',
           width: 1200,
           height: 630,
           alt: title

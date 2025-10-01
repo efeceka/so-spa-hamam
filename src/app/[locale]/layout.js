@@ -23,7 +23,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({params}) {
-  const {locale} = await params; // await yok
+  const {locale} = await params; 
   const msgs = (await import(`../../messages/${locale}.json`)).default;
 
   const base = 'https://sospakusadasi.com';
@@ -104,7 +104,7 @@ export default async function LocaleLayout({children, params}) {
     description: orgDesc,
     url,
     telephone: '+90 530 689 34 20',
-    image: [`${base}/og.jpg`],
+    image: [`${base}/og.png`],
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Cumhuriyet, Rıfat Arın Sk. No: 10C',

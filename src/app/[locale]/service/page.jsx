@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
     msgs?.seo?.services?.description ??
     "SO Spa & Hamam’da geleneksel hamam, kese-köpük ve masaj hizmetlerini keşfedin.";
   const ogAlt = msgs?.seo?.services?.ogAlt ?? title;
-  const ogImage = msgs?.seo?.services?.ogImage ?? "/images/seo/og-services.jpg";
+  const ogImage = msgs?.seo?.services?.ogImage ?? "/images/seo/og.png";
 
   return {
     metadataBase: new URL(base),

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     msgs?.seo?.contact?.description ??
     "SO Spa & Hamam’a ulaşın. Telefon, WhatsApp veya form üzerinden kolayca rezervasyon yapın.";
   const ogAlt = msgs?.seo?.contact?.ogAlt ?? title;
-  const ogImage = msgs?.seo?.contact?.ogImage ?? "/images/seo/og-contact-tr.jpg";
+  const ogImage = msgs?.seo?.contact?.ogImage ?? "/images/seo/og.png";
   const keywords = msgs?.seo?.contact?.keywords;
 
   return {

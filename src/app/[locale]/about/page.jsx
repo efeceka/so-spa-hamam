@@ -43,14 +43,14 @@ export async function generateMetadata({ params }) {
       description,
       locale,
       images: [
-        { url: "/og-about.jpg", width: 1200, height: 630, alt: ogAlt },
+        { url: "/og.png", width: 1200, height: 630, alt: ogAlt },
       ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/og-about.jpg"],
+      images: ["/og.png"],
     },
     robots: { index: true, follow: true },
   };
