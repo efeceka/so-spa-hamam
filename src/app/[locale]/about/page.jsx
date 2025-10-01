@@ -6,7 +6,7 @@ import AboutStats from "@/components/about/AboutStats";
 import AboutCTA from "@/components/about/AboutCTA";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const msgs = (await import(`../../../messages/${locale}.json`)).default;
 
   const base = "https://sospakusadasi.com";

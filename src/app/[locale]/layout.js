@@ -23,7 +23,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({params}) {
-  const {locale} = params; // await yok
+  const {locale} = await params; // await yok
   const msgs = (await import(`../../messages/${locale}.json`)).default;
 
   const base = 'https://sospakusadasi.com';

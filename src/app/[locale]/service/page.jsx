@@ -3,7 +3,7 @@ import ServicesHero from "@/components/services/ServicesHero";
 import ServicesList from "@/components/services/ServicesList";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const msgs = (await import(`../../../messages/${locale}.json`)).default;
 
   const base = "https://sospakusadasi.com";

@@ -7,7 +7,7 @@ import ServicesShowcase from '@/components/home/ServicesShowcase';
 import CalloutBanner from '@/components/home/CalloutBanner';
 
 export async function generateMetadata({params}) {
-  const {locale} = params;
+  const {locale} = await params;
   const msgs = (await import(`../../messages/${locale}.json`)).default;
 
   const base = 'https://sospakusadasi.com';
