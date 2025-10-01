@@ -24,6 +24,7 @@ export default function FloatingButtons() {
         href="tel:+905306893420"
         className="flex h-14 w-14 items-center justify-center rounded-full shadow-lg"
         style={{ backgroundColor: GOLD }}
+        data-gtm="call"
       >
         <Phone className="h-7 w-7 text-white" />
       </a>
